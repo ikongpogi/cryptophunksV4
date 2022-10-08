@@ -9,24 +9,24 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'YourNftToken',
-  tokenName: 'My NFT Token',
-  tokenSymbol: 'MNT',
-  hiddenMetadataUri: 'ipfs://__CID__/hidden.json',
+  contractName: 'CryptophunksV4',
+  tokenName: 'CryptophunksV4',
+  tokenSymbol: 'CP4',
+  hiddenMetadataUri: 'ipfs://QmZMPZ4ANbiz9NPjSRgAnN2QRszoCx1oPQZNs6tSxP9wLF/hidden.json',
   maxSupply: 10000,
   whitelistSale: {
-    price: 0.05,
+    price: 0.0,
     maxMintAmountPerTx: 1,
   },
   preSale: {
-    price: 0.07,
+    price: 0.005,
     maxMintAmountPerTx: 2,
   },
   publicSale: {
-    price: 0.09,
-    maxMintAmountPerTx: 5,
+    price: 0.009,
+    maxMintAmountPerTx: 10,
   },
-  contractAddress: null,
+  contractAddress: "0x25e1ddB7212a6d7942f414E2beAfe2eBB02b5488",
   marketplaceIdentifier: 'my-nft-token',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
